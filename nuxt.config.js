@@ -187,7 +187,7 @@ export default {
   // Set preference as dark
   // https://color-mode.nuxtjs.org/#caveats
   colorMode: {
-    preference: 'dark', // default value of $colorMode.preference
+    preference: 'light', // default value of $colorMode.preference
     fallback: 'dark',
   },
   styleResources: {
