@@ -5,7 +5,7 @@ export default {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  router: { base: '/mergelabs2' },
+  router: { base: 'rholang.github.io/MergeLabs2' },
   target: 'static',
   ssr: true,
   generate: {
