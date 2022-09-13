@@ -1,0 +1,71 @@
+<template>
+  <div class="tech-stack">
+    <img src="~/assets/images/bg/home-tech-bg.png" alt="" class="bg" />
+    <svg
+      width="1676"
+      height="1676"
+      viewBox="0 0 1676 1676"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="838" cy="838" r="567" stroke="white" stroke-opacity="0.1" />
+      <circle cx="838" cy="838" r="374" stroke="white" stroke-opacity="0.1" />
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M798.352 727.248L764.957 746.528V785.089L798.352 804.369L831.746 785.089V746.528L798.352 727.248ZM835.31 744.471L798.352 723.133L761.394 744.471V787.147L798.352 808.485L835.31 787.147V744.471ZM798.602 868.002L765.207 887.282V925.843L798.602 945.123L831.996 925.843V887.282L798.602 868.002ZM835.56 885.225L798.602 863.887L761.644 885.225V927.901L798.602 949.238L835.56 927.901V885.225ZM724.477 816.907L757.871 797.627L791.266 816.907V855.468L757.871 874.748L724.477 855.468V816.907ZM757.871 793.512L794.83 814.85V857.526L757.871 878.863L720.913 857.526V814.85L757.871 793.512ZM839.332 797.627L805.938 816.907V855.468L839.332 874.748L872.727 855.468V816.907L839.332 797.627ZM876.291 814.85L839.332 793.512L802.374 814.85V857.526L839.332 878.863L876.291 857.526V814.85ZM887.649 816.907L921.043 797.627L954.438 816.907V855.468L921.043 874.748L887.649 855.468V816.907ZM921.043 793.512L958.002 814.85V857.526L921.043 878.863L884.085 857.526V814.85L921.043 793.512ZM880.662 727.248L870.735 732.979L847.267 746.528V785.089L880.662 804.369L914.056 785.089V746.528L880.662 727.248ZM917.62 744.471L880.662 723.133L868.953 729.893L843.703 744.471V787.147L880.662 808.485L917.62 787.147V744.471ZM846.668 887.263L880.063 867.982L913.457 887.263V925.823L880.063 945.104L846.668 925.823V887.263ZM880.063 863.867L917.021 885.205V927.881L880.063 949.219L843.104 927.881V885.205L880.063 863.867Z"
+        fill="url(#paint1_radial-741323)"
+      />
+      <defs>
+        <radialGradient
+          id="paint1_radial-741323"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(889.357 745.895) rotate(117.246) scale(228.719 189.463)"
+        >
+          <stop offset="0.141956" stop-color="white" stop-opacity="0.86" />
+          <stop offset="1" stop-color="white" stop-opacity="0.17" />
+        </radialGradient>
+      </defs>
+    </svg>
+    <div class="label label-tendermint tm-rf-1 tm-solid">Tendermint Core</div>
+    <div class="label label-gaia tm-rf-1 tm-solid">Gaia</div>
+    <div class="label label-sdk tm-rf-1 tm-solid">Cosmos SDK</div>
+  </div>
+</template>
+<style lang="stylus" scoped>
+.tech-stack
+  position relative
+
+.bg
+  position absolute
+  width 172%
+  margin-top -50%
+  max-width none
+  margin-left 1%
+  filter blur(10px)
+  user-select none
+
+svg
+  position relative
+  width 172%
+  height auto
+  margin-top -50%
+  margin-bottom -51%
+
+.label
+  position absolute
+  top 48%
+  left 61%
+  color var(--black)
+
+.label-tendermint
+  transform rotate(90deg) translateX(-150%)
+  transform-origin bottom left
+
+.label-sdk
+  transform rotate(-90deg) translateX(-170%)
+  transform-origin top left
+</style>

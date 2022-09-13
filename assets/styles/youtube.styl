@@ -1,0 +1,67 @@
+// Source: https://github.com/paulirish/lite-youtube-embed/blob/master/src/lite-yt-embed.css
+
+lite-youtube
+  background-color transparent
+  position relative
+  display block
+  contain content
+  background-position center center
+  background-size cover
+  cursor pointer
+  border-radius $border-radius-6
+
+/* 
+  responsive iframe with a 16:9 aspect ratio
+  thanks https://css-tricks.com/responsive-iframes/
+*/
+lite-youtube::after
+  content ""
+  display block
+  padding-bottom calc(100% / (16 / 9))
+
+lite-youtube > iframe
+  width 100%
+  height 100%
+  position absolute
+  top 0
+  left 0
+  border 0
+  border-radius $border-radius-6 // safari
+
+/* play button */
+lite-youtube > .lty-playbtn
+  width 62px
+  height 62px
+  position absolute
+  cursor pointer
+  transform translate3d(-50%, -50%, 0)
+  top 50%
+  left 50%
+  z-index 1
+  background-color transparent
+  background-image url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32.0014 2.85938C26.2377 2.85937 20.6033 4.56852 15.811 7.77069C11.0186 10.9729 7.28338 15.5242 5.07769 20.8492C2.872 26.1742 2.29489 32.0337 3.41934 37.6867C4.54379 43.3397 7.3193 48.5323 11.3949 52.6079C15.4705 56.6835 20.6631 59.459 26.3161 60.5834C31.9691 61.7079 37.8286 61.1308 43.1536 58.9251C48.4786 56.7194 53.0299 52.9842 56.2321 48.1918C59.4343 43.3994 61.1434 37.7651 61.1434 32.0014C61.1347 24.2751 58.0616 16.8678 52.5983 11.4045C47.135 5.94123 39.7277 2.86812 32.0014 2.85938V2.85938ZM47.0581 32.8407L23.7445 46.4403C23.597 46.5255 23.4296 46.5703 23.2593 46.5704C23.0889 46.5705 22.9216 46.5258 22.7739 46.4408C22.6263 46.3557 22.5037 46.2334 22.4183 46.086C22.3329 45.9386 22.2877 45.7713 22.2874 45.601V18.4018C22.2877 18.2314 22.3329 18.0642 22.4183 17.9168C22.5037 17.7694 22.6263 17.647 22.7739 17.562C22.9216 17.477 23.0889 17.4323 23.2593 17.4323C23.4296 17.4324 23.597 17.4773 23.7445 17.5625L47.0581 31.1621C47.2049 31.2476 47.3266 31.3701 47.4113 31.5174C47.4959 31.6647 47.5404 31.8315 47.5404 32.0014C47.5404 32.1712 47.4959 32.3381 47.4113 32.4854C47.3266 32.6327 47.2049 32.7552 47.0581 32.8407Z' fill='black' fill-opacity='0.6'/%3E%3C/svg%3E")
+  filter grayscale(100%)
+  transition filter .1s cubic-bezier(0, 0, 0.2, 1)
+  border none
+
+lite-youtube:hover > .lty-playbtn,
+lite-youtube .lty-playbtn:focus
+  filter none
+
+/* Post-click styles */
+lite-youtube.lyt-activated
+  cursor unset
+
+lite-youtube.lyt-activated::before,
+lite-youtube.lyt-activated > .lty-playbtn
+  opacity 0
+  pointer-events none
+
+.lyt-visually-hidden
+  clip rect(0 0 0 0)
+  clip-path inset(50%)
+  height 1px
+  overflow hidden
+  position absolute
+  white-space nowrap
+  width 1px
