@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ecosystem/wallets", {data:[{}],fetch:{},mutations:[]});

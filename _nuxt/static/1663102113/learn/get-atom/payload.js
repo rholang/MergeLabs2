@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/learn/get-atom", {data:[{}],fetch:{},mutations:[]});

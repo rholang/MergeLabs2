@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/learn/staking", {data:[{}],fetch:{},mutations:[]});
