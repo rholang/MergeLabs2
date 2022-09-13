@@ -12,7 +12,7 @@ export default {
     fallback: false,
     routes: ['/', '404'],
   },
-  
+
   ignore: 'pages/design/*.vue',
   /*
    ** Headers of the page
@@ -162,6 +162,11 @@ export default {
    ** See https://nuxtjs.org/api/configuration-components
    */
   components: true,
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
   /*
    ** Nuxt.js dev-modules
    */

@@ -85,7 +85,7 @@
                       href="https://v1.cosmos.network/sdk"
                       class="tm-rf0 tm-lh-title tm-link-external"
                     >
-                      <span>Cosmos SDK</span></tm-link
+                      <span>MergeLabs SDK</span></tm-link
                     >
                   </li>
                   <li>

@@ -7,14 +7,14 @@
     <div
       class="overline tm-rf-1 tm-rf0-m-up tm-medium tm-lh-title tm-overline tm-measure-narrow tm-muted"
     >
-      Enter the Cosmos Hub
+      Enter the MergeLabs Hub
     </div>
     <h2 class="title tm-rf5 tm-bold tm-lh-title tm-title">
       The heart of the Interchain.
     </h2>
     <p class="subtitle offset tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure-narrow">
-      Serving as the economic center of Cosmos, the Cosmos Hub is a blockchain
-      that provides vital services to the
+      Serving as the economic center of MergeLabs, the MergeLabs Hub is a
+      blockchain that provides vital services to the
       <tm-tooltip term="interchain">Interchain</tm-tooltip>.
     </p>
     <div class="services">

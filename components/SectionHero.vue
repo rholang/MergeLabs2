@@ -4,14 +4,16 @@
       <div
         class="overline tm-rf-1 tm-rf0-m-up tm-medium tm-lh-title tm-overline tm-measure-narrow tm-muted"
       >
-        Welcome to Cosmos
+        Welcome to MergeLabs
       </div>
       <h1 class="title tm-rf5 tm-rf7-m-up tm-bold tm-lh-title tm-title">
-        The Internet of Blockchains.
+        One DAG to rule them all.
       </h1>
       <p class="subtitle tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure">
-        Cosmos is an ever-expanding ecosystem of interconnected apps and
-        services, built for a decentralized future.
+        MergeLabs is a new scalable network for blockchain 4.0 dApps. Build on
+        latest research in the reflective high order process calculus. Rholang
+        runs on the Rchain world computer algorithmically constrained to obey
+        our rules.
       </p>
     </div>
     <graphics-home-hero class="graphics" />

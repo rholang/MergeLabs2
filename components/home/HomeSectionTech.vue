@@ -17,14 +17,14 @@
     <div class="text">
       <p class="tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure-narrow">
         <tm-link href="https://github.com/cosmos/cosmos-sdk" class="tm-medium"
-          >Cosmos SDK</tm-link
+          >MergeLabs SDK</tm-link
         >
-        is a state-of-the-art blockchain framework that powers the Cosmos Hub
+        is a state-of-the-art blockchain framework that powers the MergeLabs Hub
         and its rapidly expanding orbit of sovereign chains.
       </p>
       <p class="tm-rf0 tm-rf1-m-up tm-lh-copy tm-measure-narrow">
         Developers can use the SDK to build innovative applications that create
-        value through exchange with the Cosmos Hub.
+        value through exchange with the MergeLabs Hub.
       </p>
     </div>
     <div class="stat stat-pos">

@@ -144,7 +144,7 @@ export default {
               href: '/starport',
             },
             {
-              title: 'Cosmos SDK',
+              title: 'MergeLabs SDK',
               href: 'https://v1.cosmos.network/sdk',
             },
             {
